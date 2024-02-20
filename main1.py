@@ -77,7 +77,7 @@ def fetch_forex_rate(date, currency_code):
         print(forex_rate)
 
         # 将结果写入result.txt文件
-        with open('result.txt', 'w') as result_file:
+        with open('shiyou/result.txt', 'w') as result_file:
             result_file.write(forex_rate)
 
     except Exception as e:
